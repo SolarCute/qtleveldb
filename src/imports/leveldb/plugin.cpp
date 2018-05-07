@@ -1,4 +1,4 @@
-#include <qqml.h>
+﻿#include <qqml.h>
 #include <QtQml/QQmlExtensionPlugin>
 #include <qleveldbbatch.h>
 #include <qleveldboptions.h>
@@ -10,7 +10,7 @@ QT_BEGIN_NAMESPACE
 class QtLevelDBPlugin : public QQmlExtensionPlugin
 {
     Q_OBJECT
-    Q_PLUGIN_METADATA(IID "org.qt-project.Qt.QQmlExtensionInterface/1.0")
+    Q_PLUGIN_METADATA(IID QQmlExtensionInterface_iid)
 public:
     void registerTypes(const char *uri)
     {

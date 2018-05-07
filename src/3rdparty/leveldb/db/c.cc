@@ -1,11 +1,11 @@
-// Copyright (c) 2011 The LevelDB Authors. All rights reserved.
+﻿// Copyright (c) 2011 The LevelDB Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file. See the AUTHORS file for names of contributors.
 
 #include "leveldb/c.h"
 
 #include <stdlib.h>
-#if !defined(Q_OS_WIN) && !defined(Q_OS_WIN32)
+#if ndef(Q_OS_WIN) //&& !defined(Q_OS_WIN32)
 #include <unistd.h>
 #else
 
