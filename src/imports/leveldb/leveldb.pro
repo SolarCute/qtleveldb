@@ -1,5 +1,5 @@
 CXX_MODULE = leveldb
-TARGET = declarative_leveldb
+TARGET = leveldb
 TARGETPATH = QtLevelDB
 IMPORT_VERSION = 1.0
 
